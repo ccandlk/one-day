@@ -1,0 +1,93 @@
+
+.headTop{
+    width:100%;
+    background-color:rgb(51,51,51) ;
+    height:80px;
+}
+.headBottom{
+    width:100%;
+    position:absolute;
+}
+.headNav{
+    float:right;
+    line-height: 50px;
+    height:50px;
+}
+.img1{
+    line-height: 60px;
+    height:60px;
+    float:left;
+}
+.headNav li{
+    float:left;
+    margin-left:15px;
+    font-size:14px;
+}
+.headNav li span{
+    color:white;
+}
+.nav li{
+    list-style: none;
+    font-size: 20px;
+    margin-top:5px;
+}
+.headBottomTop{
+    position:relative;
+    margin-top:30px;
+    background-color: white;
+    margin-left:20px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px #888888;
+}
+.headBottomBottom{
+   margin-top:50px;
+
+}
+.images{
+    border:1px solid darkgray;
+    width:200px;
+    text-align: center;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+.images img{
+    width:150px;
+}
+ol li{
+    font-weight: 600;
+}
+.bot{
+    width:80%;
+    border-collapse:collapse;
+}
+.bot thead{
+    background-color: black;
+    color: white;
+}
+.bot tr td{
+    height:30px;
+    padding-left:5px;
+    border:1px solid lightgray;
+}
+.bot tr{
+    border:none;
+}
+.foot tr td{
+    border:none;
+    padding-left: 20px;
+    padding-top:15px;
+
+}
+.foot tr td:nth-child(2n+1)
+{text-align:right;}
+.an{
+    color:darkgrey;
+}
+.doSubmit{
+    margin-left:20px;width:90%; height:50px;background-color: blue;
+    color:white;
+    font-size:20px;
+    border:1px solid;
+    border-radius: 15px;
+}
